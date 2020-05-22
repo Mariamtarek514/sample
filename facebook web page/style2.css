@@ -1,0 +1,226 @@
+/*global*/
+*
+{
+    margin: 0px;
+    direction: rtl;
+}
+.clear
+{
+    clear: both;
+}
+body
+{
+    width: 850px;
+    height: 500px;
+    font-family:Helvetica, Arial, sans-serif;
+    background-color: #e9ebee;
+}
+/*header*/
+header
+{
+    background-color: #3c5a98;
+    height:65px;
+    color: #FFF;
+}
+header>span
+{
+    float:right;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-right: 60px;
+    font-size:30px;
+    font-weight: 600;
+    width: 20%;
+}
+.loginIntoUserAccount
+{
+   direction: rtl;
+    float: left;
+    font-size: 12px;
+    margin-top:12px ;
+    display:block;
+    width: 40%;   
+}
+div
+{
+    float: right;
+  
+}
+
+.loginIntoUserAccount label
+{
+    font-size:9px;
+}
+.loginIntoUserAccount input
+{
+    display: block;
+    width:100px;
+    height: 10px;
+    margin-top: 4px;
+    margin-left: 10px;
+}
+.loginIntoUserAccount input[type="submit"]
+{
+    width: 60px;
+    height: 18px;
+    margin-top:15px;
+    font-size:10px;
+    font-weight: 600;
+    background-color:rgb(58,97,176);
+    color: #FFF;
+    border:1px solid rgb(41,72,125);
+    cursor: pointer;
+}
+.forgetPass
+{
+    color: #8f93af;
+    float: right;
+    margin-top: 1%;
+    margin-right: 34%;
+    text-decoration: none;
+ 
+}
+.forgetPass:hover
+{
+    text-decoration: underline;
+}
+/*section*/
+section
+{
+    width:40%;
+    float: left;
+}
+h3
+{
+    margin-top: 15px;
+    font-weight: 600;
+    color: #333333;
+    font-size: 30px;
+}
+section>span
+{
+    font-size: 15px;
+}
+::placeholder
+{
+    color: #90949c;
+    font-size:12px;
+    padding-right: 5px;
+}
+section form input
+{
+    padding-left:5px;
+    margin-bottom:8px; 
+    border:1px solid #CCC ;
+    border-radius:3px;   
+}
+input[name="firstName"],input[name="surname"]
+{
+    width: 120px;
+    margin-top: 10px;
+    height:22px;
+}
+
+input[ name="mobileOrEmail"],input[name="newPassword"]
+{
+    width: 252px;
+    height:22px;
+}
+.ratioAdjust
+{
+    width:12px;
+}
+label
+{
+    margin-left: 10px;
+}
+input[name="newPassword"]
+{
+    margin-bottom: 15px;
+}
+section form .gender,section form .Birthday
+{
+    color:#90949c;
+    font-weight:700;
+    font-size: 13px;
+    display: block;
+}
+.gender
+{
+    margin: 8px auto ;
+}
+.Birthday
+{
+    margin-bottom: 5px;
+}
+.containerOfGender
+{
+    width:320px;
+    margin-bottom: 10px;
+}
+label
+{
+    font-size: 17px;
+    margin-right: 8px;
+}
+
+.containerOfSelector select
+{
+   float: right;
+}
+.containerOfSelector select:last-child
+{
+    margin-left: 10px;
+}
+p
+{
+    font-size:9px;
+    color:#777777;
+    margin-bottom: 14px;
+    font-weight: 400;
+    width: 250px;
+   
+}
+input[name="submit"]
+{
+    width:150px;
+    height: 25px;
+    border-radius: 5px;
+    color: #FFF;
+    background-color: #6aa455;
+    border: 1px solid  #6aa455;
+    cursor: pointer;
+}
+p a
+{
+    color:#3c5a98;
+    text-decoration: none;
+    margin-bottom: 14px;
+}
+p a:hover
+{
+    text-decoration: underline;
+}
+/*end of section*/
+/*figure*/
+figure
+{
+    width:50%;  
+}
+figcaption
+{   
+    margin-top:3px ;
+    margin-right:70px;
+    margin-bottom:10px ;
+    font-size:18px;
+    font-weight: 700;
+    display: inline-block;
+    width: 400px;
+    color: #0e385f;
+}
+figure img
+{   
+    width:80%;
+    margin-right:70px;
+}
+/*end of figure*/
